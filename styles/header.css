@@ -1,0 +1,51 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-image: var(--cor-de-fundo-header);
+    margin: 0.5em;
+    position: relative;
+}
+
+.cabecalho__menu-hamburguer{
+    display: inline-block;
+}
+
+
+.container-menu{ 
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 0 0.5em;
+    height: 26px;
+    width: 26px;
+}
+
+.lista-menu{
+    display:none;
+    position: absolute;
+    top:100%;
+    width: 60vw;
+    background: var(--cor-de-fundo-header);
+}
+
+.container__botao:checked ~ .lista-menu{
+    display: block;
+}
+
+.lista-menu__item{
+    padding: 1em;
+
+}
+
+.lista-menu__link{
+    color: var(--cor-letra);
+    text-decoration: none;
+
+
+}
+
+.container__botao{
+    display:none;
+}

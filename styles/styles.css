@@ -1,0 +1,17 @@
+@import url(./header.css);
+@import url(./reset.css);
+
+:root{
+    --cor-de-fundo-header: linear-gradient(#1b0737 20%, #7422c6);
+    --cor-de-fundo-body: linear-gradient(#07030e, #40116E, #07030e);
+    --cor-letra: white;
+    
+}
+
+body{
+    background-image: var(--cor-de-fundo-body);
+    background-repeat: no-repeat;
+
+}
+
+
