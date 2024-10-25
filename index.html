@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>L Launcher</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"><img class="container__imagem" src="./assets/Menu.svg" alt="Menu"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Biblioteca </a></li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Perfil</a></li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Loja </a></li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Comunidade</a></li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Amigos</a></li>
+                <li class="lista-menu__item"> <a href="#" class="lista-menu__link">Configuarações</a></li>
+            </ul>
+        </div>
+        <div class="container container-menu">
+            <a href="#"><img class="container__imagem" src="./assets/Controle.svg" alt=""></a>
+            <a href="#"><img class="container__imagem" src="./assets/Carrinho.svg" alt=""></a>
+            <a href="#"><img class="container__imagem" src="./assets/Perfil.svg" alt=""></a>
+        </div>
+    </header>
+    <div class="cards">
+        <div class="card1">
+            <img src="./assets_cards/sunrako-perfil 1.svg" alt="">
+            <p class="card1-texto">São paulo, BR</p>
+            
+        </div>
+        <div class="card2">
+            <h2 class="card2-titulo">Neod_dy</h2>
+            <img src="./assets_cards/99 1.svg" alt="">
+            
+        </div>
+        
+    </div>
+
+    <section class="carrossel">
+        <h2 class="titulo__carrossel-apresentacao">jogados recentemente</h2>
+
+              <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assets_carrossel/battlefield4 (1).jpg" alt="Livro sobre Portugol da Alura Books"></div>
+                <div class="swiper-slide"><img src="./assets_carrossel/fragpunk (2).jpg" alt="Livro sobre Nodejs da Alura Books"></div>
+                <div class="swiper-slide"><img src="./assets_carrossel/warface.jpg" alt="Livro sobre Liderança da Alura Books"></div>
+                <div class="swiper-slide"><img src="./assets_carrossel/CSGO (2).jpg" alt="Livro sobre Gestão da Alura Books"></div>
+                <div class="swiper-slide"><img src="./assets_carrossel/microvolts (2).jpg" alt="Livro sobre Javascript da Alura Books"></div>
+                <div class="swiper-slide"><img src="./assets_carrossel/crossfire (2).jpg" alt="Livro sobre Arquiterua de Design da Alura Books"></div>
+            </div>
+
+  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <section class="destaque">
+        <h2 class="destaque__apresentacao">Destaques</h2>
+        <div class="destaque__titulos">
+            <h2>Atividade recentes</h2>
+            <h2>504 hora(s) nas últimas 3 semanas</h2>
+        </div>
+        <div class="destaque__cards">
+            <div class="card1">
+                <div class="grid-container">
+                    <img clas="grid-item grid__item-imagem" src="./assets/dota-destaque 1.svg" alt="" srcset="">
+                    <h3 class="grid-item grid__item-titulo">Dota 2</h3>
+                    <p class="grid-item">3.000 horas registradas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Desenvolvido por <strong>Adriano Augusto</strong></h2>
+    </footer>
+
+
+
+
+    <h1>dsads</h1>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>

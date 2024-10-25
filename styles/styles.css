@@ -1,0 +1,21 @@
+@import url(./header.css);
+@import url(./reset.css);
+@import url(./carrossel.css);
+@import url(./cards.css);
+@import url(./destaque.css);
+@import url(./rodape.css);
+
+:root{
+    --cor-de-fundo-header: linear-gradient(#170626 20%, #37145a, #170626);
+    --cor-de-fundo-body: linear-gradient(#180b22 20%, #190829, #000000);
+    --cor-letra: white;
+    
+}
+
+body{
+    background-image: var(--cor-de-fundo-body);
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+
+
