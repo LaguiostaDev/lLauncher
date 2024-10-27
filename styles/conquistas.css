@@ -1,0 +1,14 @@
+@media screen and (min-width:1024px){
+    .conquistas__1024{
+        margin: 0.5em;
+    }
+    .conquistas__titulo-1024{
+        background-image: var(--cor-de-fundo-transparente);
+        width: 50%;
+        color: var(--cor-letra);
+        font-size: 24px;
+        padding: 0.4em;
+    }
+
+
+}

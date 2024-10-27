@@ -6,6 +6,7 @@
     border: 3px solid white;
     border-radius: 5%;
     gap: 2em;
+    
 }
 
 .card1-texto{
@@ -29,5 +30,14 @@
 .card2-titulo{
     color: var(--cor-letra);
     font-size: 24px;
+}
+
+@media screen and (min-width:1024px){
+    .cards{
+        width:40%;
+        border-radius: 0px; 
+        margin: 0.5em;;  
+        
+    }
 }
 

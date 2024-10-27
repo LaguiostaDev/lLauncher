@@ -4,10 +4,13 @@
 @import url(./cards.css);
 @import url(./destaque.css);
 @import url(./rodape.css);
+@import url(./main.css);
+@import url(./conquistas.css);
 
 :root{
     --cor-de-fundo-header: linear-gradient(#170626 20%, #37145a, #170626);
     --cor-de-fundo-body: linear-gradient(#180b22 20%, #190829, #000000);
+    --cor-de-fundo-transparente: linear-gradient(to right, rgba(23, 6, 38, 0.5), rgba(55, 20, 90, 0.5));
     --cor-letra: white;
     
 }
