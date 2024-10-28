@@ -19,13 +19,6 @@
     transform: translate(-50%, -50%);
 }
 
-.content {
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
 
 /* Media query para esconder o vídeo em telas menores que 1024px */
 @media (max-width: 1024px) {

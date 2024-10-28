@@ -10,6 +10,7 @@
     padding: 1em;
     margin: 1em 0;
     text-align: center;
+    font-family: var(--fonte-principal);
 }
 
 .destaque__titulos{
@@ -41,7 +42,7 @@
 
 }
 
-.card1{
+.destaque__card1{
     background-image: linear-gradient(to right,#170626 20% , #37145a);
 }
 

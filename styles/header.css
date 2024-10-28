@@ -49,3 +49,46 @@
 .container__botao{
     display:none;
 }
+
+.container__menu-titulo{
+    display: none;
+}
+
+@media screen and (min-width:1024px){
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .container__menu-titulo{
+        display: block;
+        margin-left: 1.4em;
+    }
+
+    .container__imagem{
+        display: none;
+    }
+
+    .container-menu{
+        display: flex;
+        gap: 1em;
+    }
+
+    .container1{
+        display: none;
+
+    }
+
+    .container2{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .container__menu-link{
+        text-decoration: none;
+        color:var(--cor-letra);
+        font-family:var(--fonte-principal);
+        font-size: 20px;
+        
+    }
+}
