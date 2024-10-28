@@ -1,13 +1,66 @@
+.conquistas__1024{
+    display: none;
+}
+
 @media screen and (min-width:1024px){
     .conquistas__1024{
         margin: 0.5em;
+        background-color: rgba(17, 17, 17, 0.6);
+        margin-top: 3em;
+        width: 75%;
+        display: block;
     }
     .conquistas__titulo-1024{
-        background-image: var(--cor-de-fundo-transparente);
-        width: 50%;
+        background-image: var(--cor-de-fundo-transparente-destaque);
+        width: auto;
         color: var(--cor-letra);
         font-size: 24px;
         padding: 0.4em;
+        font-family: var(--fonte-principal);
+    }
+
+    .conquistas__imagem{
+        display: flex;
+        gap: 0.25em;
+        border-bottom: 1px solid white;
+        padding: 1em 0;
+    }
+
+    .conquistas__imagem img{
+        width: 110.33px;
+        height: auto;
+        
+    }
+
+    .conquistas__imagem p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 110.33px;
+        height: 70px;
+        color: var(--cor-letra);
+        font-family: var(--fonte-principal);
+        
+
+    }
+
+    .conquista__descricao{
+        padding: 1em;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .conquista__descricao-subtitulo{
+        font-size: 24px;
+        color: var(--cor-letra);
+        font-family: var(--fonte-principal);
+    }
+
+    .conquista__descricao-texto{
+        margin-top: 10px;
+        font-size: 16px;
+        color: var(--cor-letra);
+        font-family: var(--fonte-principal);
     }
 
 

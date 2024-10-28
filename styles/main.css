@@ -1,8 +1,48 @@
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
 
-@media screen and (min-width:1024px){
+.video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media query para esconder o vídeo em telas menores que 1024px */
+@media (max-width: 1024px) {
+    .video-background {
+        display: none; /* Esconde o container do vídeo */
+    }
+}
+
+/* Media query para mostrar o vídeo em telas maiores que 1024px */
+@media (min-width: 1024px) {
+    .video-background {
+        display: block; /* Garante que o vídeo seja exibido */
+
+    }
     .tela__1024{
-        background-color: #1E1E1E1E;
+        background: linear-gradient(rgba(23, 6, 38, 0.8) 20%, rgba(55, 20, 90, 0.8), rgba(23, 6, 38, 0.8));
         margin: 3em 5em;
-
+        padding-top: 1em; 
     }
 }
