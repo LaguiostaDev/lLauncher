@@ -5,7 +5,7 @@
 
 .destaque__apresentacao{
     color: var(--cor-letra);
-    background-image: var(--cor-de-fundo-header);
+    background-image: var(--cor-de-fundo-transparente-destaque);
     font-size: 24px;
     padding: 1em;
     margin: 1em 0;
@@ -46,4 +46,22 @@
     background-image: linear-gradient(to right,#170626 20% , #37145a);
 }
 
+.destaque__cards2{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .destaque__card1{
+       margin: 1em;
+    }
+
+    .grid__item-imagem{
+        width: 178px;
+        height: 10px;
+    }
+
+    .destaque__cards2{
+        display: block;
+    }
+}
 

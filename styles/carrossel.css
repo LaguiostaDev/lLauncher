@@ -18,7 +18,7 @@
 
 .titulo__carrossel-apresentacao{
     color: var(--cor-letra);
-    background-image: var(--cor-de-fundo-header);
+    background-image: var(--cor-de-fundo-transparente-destaque);
     font-size: 24px;
     padding: 1em;
     margin: 1em 0;

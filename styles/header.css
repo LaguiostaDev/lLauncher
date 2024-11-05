@@ -39,12 +39,20 @@
 
 }
 
+.lista-menu__item:hover{
+    background-color: #9500ff41;
+
+}
+
 .lista-menu__link{
     color: var(--cor-letra);
     text-decoration: none;
-
-
+    font-family: var(--fonte-principal);
+    
 }
+
+
+
 
 .container__botao{
     display:none;

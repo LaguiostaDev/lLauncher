@@ -53,5 +53,10 @@
         
     }
 
+    .grid-container img{
+        width: 178px;
+        height: 86px;
+        margin: 10px;
+    }
 }
 

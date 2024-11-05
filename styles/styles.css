@@ -21,6 +21,7 @@ body{
     background-image: var(--cor-de-fundo-body);
     background-repeat: no-repeat;
     font-size: 16px;
+    height:100%;
 }
 
 
